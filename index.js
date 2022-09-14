@@ -13,8 +13,15 @@ for (let key in tempObj) {
     newMap.set([key],tempObj[key]);
 }
 for ([key, value] of newMap.entries()){
-    console.log(key, value);
+    //console.log(key, value);
 }
 newMap.set("Name", "Cynthia Ahedo")
-console.log(newMap.delete('Name'));
-console.log(newMap);
+//console.log(newMap.delete('Name'));
+//console.log(newMap);
+//console.log(console);
+/**
+ * SET
+ */
+let newSet = new Set();
+newSet.add("Name", "Cynthia Ahedo");
+console.log(newSet.values("Name"));
